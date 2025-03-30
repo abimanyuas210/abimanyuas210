@@ -7,6 +7,6 @@
 
 # 📊 profile visitors:
 ---
-[![](https://moe-counter.glitch.me/get/@:Miko7799?theme=aso)](https://visitcount.itsvg.in)
+[![](https://moe-counter.glitch.me/get/@:abimanyuas210?theme=aso)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
