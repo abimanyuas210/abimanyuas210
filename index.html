@@ -3,30 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abimanyu Ade Syahputra - Backend Developer specializing in Node.js from Pekalongan, Indonesia">
-    <meta name="keywords" content="backend developer, node.js, express, mongodb, api development, web development, indonesia">
-    <meta name="author" content="Abimanyu Ade Syahputra">
     <title>Abimanyu Ade Syahputra | Backend Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://via.placeholder.com/32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-        </div>
-    </div>
-
-    <!-- Cursor Animation -->
-    <div class="cursor-dot" data-cursor-dot></div>
-    <div class="cursor-outline" data-cursor-outline></div>
-    
     <!-- Header -->
     <header>
         <div class="container">
@@ -39,27 +21,15 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="header-buttons">
-                    <div class="language-toggle">
-                        <button class="lang-btn active" data-lang="en">EN</button>
-                        <button class="lang-btn" data-lang="id">ID</button>
-                    </div>
-                    <div class="theme-toggle" aria-label="Toggle dark mode">
-                        <div class="toggle-track">
-                            <div class="toggle-moon"><i class="fas fa-moon"></i></div>
-                            <div class="toggle-sun"><i class="fas fa-sun"></i></div>
-                            <div class="toggle-thumb"></div>
-                        </div>
-                    </div>
-                    <div class="hamburger" aria-label="Menu">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
             </nav>
         </div>
@@ -70,69 +40,30 @@
         <div class="container">
             <div class="hero-content">
                 <div class="text-content">
-                    <span class="hero-greeting animate-on-scroll">Hello, I'm</span>
-                    <h1 class="animate-on-scroll">Abimanyu <span>Ade Syahputra</span></h1>
-                    <h2 class="animate-on-scroll typing-text">Backend Developer</h2>
-                    <p class="animate-on-scroll">Crafting robust and scalable server-side solutions with Node.js and modern technologies.</p>
-                    <div class="hero-buttons animate-on-scroll">
-                        <a href="#projects" class="btn primary-btn">
-                            <span>View My Work</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#contact" class="btn secondary-btn">
-                            <span>Contact Me</span>
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <a href="#" class="btn outline-btn" id="downloadCV">
-                            <span>Download CV</span>
-                            <i class="fas fa-download"></i>
-                        </a>
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <h1>Abimanyu <span>Ade Syahputra</span></h1>
+                    <h2>Backend Developer</h2>
+                    <p>Crafting robust and scalable server-side solutions with Node.js and modern technologies.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
                     </div>
-                    <div class="social-icons animate-on-scroll">
-                        <a href="https://github.com/abimanyua.s210" target="_blank" aria-label="GitHub Profile">
+                    <div class="social-icons">
+                        <a href="https://github.com/abimanyua.s210" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://instagram.com/abimanyua.s" target="_blank" aria-label="Instagram Profile">
+                        <a href="https://instagram.com/abimanyua.s" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="mailto:abimanyua.s210@gmail.com" aria-label="Email Me">
+                        <a href="mailto:abimanyua.s210@gmail.com">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn Profile">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
                     </div>
                 </div>
-                <div class="hero-image animate-on-scroll">
-                    <div class="image-wrapper">
-                        <img src="https://via.placeholder.com/500x500" alt="Abimanyu Ade Syahputra - Backend Developer">
-                        <div class="shape-1"></div>
-                        <div class="shape-2"></div>
-                        <div class="floating-tech">
-                            <div class="tech-icon" style="--delay: 0s">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
-                            </div>
-                            <div class="tech-icon" style="--delay: 1s">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js">
-                            </div>
-                            <div class="tech-icon" style="--delay: 2s">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
-                            </div>
-                        </div>
-                    </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/500x500" alt="Abimanyu Ade Syahputra - Backend Developer">
                 </div>
             </div>
-            <div class="scroll-down">
-                <a href="#about">
-                    <span>Scroll Down</span>
-                    <i class="fas fa-chevron-down"></i>
-                </a>
-            </div>
-        </div>
-        <div class="hero-bg">
-            <div class="circle circle-1"></div>
-            <div class="circle circle-2"></div>
-            <div class="circle circle-3"></div>
         </div>
     </section>
 
@@ -145,19 +76,17 @@
                 <div class="section-line"></div>
             </div>
             <div class="about-content">
-                <div class="about-image animate-on-scroll" data-animation="fade-right">
-                    <div class="image-wrapper">
-                        <img src="https://via.placeholder.com/500x600" alt="Abimanyu Ade Syahputra - Backend Developer">
-                        <div class="experience-badge">
-                            <span class="number">3+</span>
-                            <span class="text">Years of Experience</span>
-                        </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x500" alt="Abimanyu Ade Syahputra">
+                    <div class="experience-badge">
+                        <span class="number">3+</span>
+                        <span class="text">Years of Experience</span>
                     </div>
                 </div>
-                <div class="about-text animate-on-scroll" data-animation="fade-left">
+                <div class="about-text">
                     <h3>Backend Developer from Pekalongan, Indonesia</h3>
                     <p>I'm Abimanyu Ade Syahputra, a passionate backend developer specializing in building robust and scalable server-side applications. With a strong foundation in Node.js and database management, I create efficient APIs and server architectures that power modern web applications.</p>
-                    <p>My approach combines technical expertise with problem-solving skills to deliver high-performance backend solutions. I'm constantly exploring new technologies and methodologies to enhance my development capabilities and stay at the forefront of the industry.</p>
+                    <p>My approach combines technical expertise with problem-solving skills to deliver high-performance backend solutions. I'm constantly exploring new technologies and methodologies to enhance my development capabilities.</p>
                     <div class="about-info">
                         <div class="info-item">
                             <span class="info-title">Name:</span>
@@ -176,24 +105,6 @@
                             <span class="info-value">Available for freelance</span>
                         </div>
                     </div>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">30+</div>
-                            <div class="stat-text">Projects Completed</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">15+</div>
-                            <div class="stat-text">Happy Clients</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">3+</div>
-                            <div class="stat-text">Years Experience</div>
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn primary-btn">
-                        <span>Contact Me</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </a>
                 </div>
             </div>
         </div>
@@ -216,7 +127,7 @@
                 <div class="tabs-content">
                     <div class="tab-panel active" id="backend-panel">
                         <div class="skills-grid">
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>Node.js</h4>
                                     <span>100%</span>
@@ -224,11 +135,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 100%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Expert in Node.js runtime, event-driven architecture, and asynchronous programming.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>Express.js</h4>
                                     <span>95%</span>
@@ -236,11 +144,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 95%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Proficient in building RESTful APIs and web applications with Express.js framework.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>RESTful APIs</h4>
                                     <span>90%</span>
@@ -248,11 +153,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 90%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Experienced in designing and implementing scalable RESTful APIs with best practices.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>JavaScript</h4>
                                     <span>90%</span>
@@ -260,39 +162,12 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 90%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Strong knowledge of JavaScript ES6+ features, async/await, and functional programming.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>TypeScript</h4>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Proficient in TypeScript for type-safe code, interfaces, and advanced type features.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>GraphQL</h4>
-                                    <span>80%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Experienced in building GraphQL APIs with Apollo Server and schema design.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-panel" id="database-panel">
                         <div class="skills-grid">
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>MongoDB</h4>
                                     <span>90%</span>
@@ -300,11 +175,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 90%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Expert in MongoDB schema design, aggregation pipeline, and performance optimization.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>MySQL</h4>
                                     <span>85%</span>
@@ -312,11 +184,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 85%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Proficient in MySQL database design, complex queries, and optimization techniques.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>PostgreSQL</h4>
                                     <span>80%</span>
@@ -324,11 +193,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 80%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Experienced in PostgreSQL, including JSON data types and advanced indexing.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>Redis</h4>
                                     <span>75%</span>
@@ -336,39 +202,12 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 75%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Skilled in using Redis for caching, session management, and pub/sub messaging.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>Firebase</h4>
-                                    <span>80%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Proficient with Firebase Firestore, Realtime Database, and Authentication services.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>Mongoose</h4>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Expert in Mongoose ODM for MongoDB, including schema validation and middleware.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-panel" id="tools-panel">
                         <div class="skills-grid">
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>Git & GitHub</h4>
                                     <span>90%</span>
@@ -376,11 +215,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 90%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Proficient in Git version control, branching strategies, and collaborative workflows.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>Docker</h4>
                                     <span>80%</span>
@@ -388,11 +224,8 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 80%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Experienced in containerization with Docker, multi-container applications with Docker Compose.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>AWS</h4>
                                     <span>75%</span>
@@ -400,44 +233,14 @@
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 75%"></div>
                                 </div>
-                                <div class="skill-description">
-                                    <p>Skilled in AWS services including EC2, S3, Lambda, and API Gateway for serverless applications.</p>
-                                </div>
                             </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
+                            <div class="skill-item">
                                 <div class="skill-info">
                                     <h4>CI/CD</h4>
                                     <span>80%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Experienced in setting up CI/CD pipelines with GitHub Actions and Jenkins for automated testing and deployment.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>Vercel</h4>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Proficient in deploying and managing applications on Vercel with serverless functions and edge computing.</p>
-                                </div>
-                            </div>
-                            <div class="skill-item animate-on-scroll" data-animation="zoom-in">
-                                <div class="skill-info">
-                                    <h4>Postman</h4>
-                                    <span>90%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                                <div class="skill-description">
-                                    <p>Expert in API testing, documentation, and automation with Postman and Newman.</p>
                                 </div>
                             </div>
                         </div>
@@ -462,16 +265,16 @@
                 <button class="filter-btn" data-filter="database">Database</button>
             </div>
             <div class="projects-grid">
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="web api">
+                <div class="project-item" data-category="web api">
                     <div class="project-card">
                         <div class="project-image">
                             <img src="https://via.placeholder.com/600x400" alt="BimTok - Video Sharing Platform">
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="https://bimtok.vercel.app" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <a href="https://bimtok.vercel.app" target="_blank" class="project-link">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                    <a href="https://github.com/abimanyua.s210/bimtok" target="_blank" class="project-link" aria-label="GitHub Repository">
+                                    <a href="https://github.com/abimanyua.s210/bimtok" target="_blank" class="project-link">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -480,37 +283,24 @@
                         <div class="project-content">
                             <h3 class="project-title">BimTok</h3>
                             <p class="project-description">A video sharing platform inspired by TikTok with robust backend architecture, user authentication, and content delivery.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Building a scalable video processing pipeline and real-time engagement features.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Implemented serverless functions for video processing and Redis for real-time features.</p>
-                                </div>
-                            </div>
                             <div class="project-tags">
                                 <span class="tag">Node.js</span>
                                 <span class="tag">Express</span>
                                 <span class="tag">MongoDB</span>
-                                <span class="tag">JWT</span>
-                                <span class="tag">FFmpeg</span>
-                                <span class="tag">Redis</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="api database">
+                <div class="project-item" data-category="api database">
                     <div class="project-card">
                         <div class="project-image">
                             <img src="https://via.placeholder.com/600x400" alt="E-Commerce API">
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <a href="#" target="_blank" class="project-link">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                    <a href="https://github.com/abimanyua.s210/ecommerce-api" target="_blank" class="project-link" aria-label="GitHub Repository">
+                                    <a href="#" target="_blank" class="project-link">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -519,36 +309,24 @@
                         <div class="project-content">
                             <h3 class="project-title">E-Commerce API</h3>
                             <p class="project-description">A comprehensive RESTful API for e-commerce platforms with product management, user authentication, and order processing.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Creating a secure payment processing system with inventory management.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Integrated Stripe API with webhook verification and implemented transaction-based inventory updates.</p>
-                                </div>
-                            </div>
                             <div class="project-tags">
                                 <span class="tag">Node.js</span>
                                 <span class="tag">Express</span>
                                 <span class="tag">MongoDB</span>
-                                <span class="tag">Stripe</span>
-                                <span class="tag">JWT</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="web api">
+                <div class="project-item" data-category="web api">
                     <div class="project-card">
                         <div class="project-image">
                             <img src="https://via.placeholder.com/600x400" alt="Task Manager">
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <a href="#" target="_blank" class="project-link">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>
-                                    <a href="https://github.com/abimanyua.s210/task-manager" target="_blank" class="project-link" aria-label="GitHub Repository">
+                                    <a href="#" target="_blank" class="project-link">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -557,300 +335,14 @@
                         <div class="project-content">
                             <h3 class="project-title">Task Manager</h3>
                             <p class="project-description">A task management application with real-time updates, user collaboration features, and data synchronization.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Implementing real-time collaboration with conflict resolution.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Used Socket.io for real-time communication and implemented operational transformation for conflict resolution.</p>
-                                </div>
-                            </div>
                             <div class="project-tags">
                                 <span class="tag">Node.js</span>
                                 <span class="tag">Express</span>
                                 <span class="tag">Socket.io</span>
-                                <span class="tag">MongoDB</span>
-                                <span class="tag">React</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="api database">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Real-time Chat API">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                    <a href="https://github.com/abimanyua.s210/chat-api" target="_blank" class="project-link" aria-label="GitHub Repository">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Real-time Chat API</h3>
-                            <p class="project-description">A scalable backend for chat applications with real-time messaging, user presence, and message history.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Building a system that can handle thousands of concurrent connections with minimal latency.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Implemented a microservice architecture with Socket.io for real-time communication and Redis for pub/sub messaging.</p>
-                                </div>
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">Node.js</span>
-                                <span class="tag">Socket.io</span>
-                                <span class="tag">Redis</span>
-                                <span class="tag">MongoDB</span>
-                                <span class="tag">Microservices</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="web database">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Content Management System">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                    <a href="https://github.com/abimanyua.s210/cms" target="_blank" class="project-link" aria-label="GitHub Repository">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Content Management System</h3>
-                            <p class="project-description">A flexible CMS with custom content types, user roles, and a powerful API for content delivery.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Creating a flexible system that can handle various content types with custom fields.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Implemented a dynamic schema system with GraphQL for flexible content querying and management.</p>
-                                </div>
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">Node.js</span>
-                                <span class="tag">Express</span>
-                                <span class="tag">MongoDB</span>
-                                <span class="tag">GraphQL</span>
-                                <span class="tag">React</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-item animate-on-scroll" data-animation="fade-up" data-category="api database">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Authentication Service">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                    <a href="https://github.com/abimanyua.s210/auth-service" target="_blank" class="project-link" aria-label="GitHub Repository">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Authentication Service</h3>
-                            <p class="project-description">A secure authentication microservice with OAuth integration, JWT tokens, and role-based access control.</p>
-                            <div class="project-details">
-                                <div class="project-detail">
-                                    <h4>Challenge:</h4>
-                                    <p>Building a secure, scalable authentication system that works across multiple services.</p>
-                                </div>
-                                <div class="project-detail">
-                                    <h4>Solution:</h4>
-                                    <p>Created a microservice with OAuth 2.0, JWT with refresh tokens, and Redis for token management.</p>
-                                </div>
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">Node.js</span>
-                                <span class="tag">Express</span>
-                                <span class="tag">JWT</span>
-                                <span class="tag">OAuth</span>
-                                <span class="tag">Redis</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="projects-more">
-                <a href="https://github.com/abimanyua.s210" target="_blank" class="btn primary-btn">
-                    <span>View More on GitHub</span>
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-subtitle">Client Feedback</h3>
-                <h2 class="section-title">Testimonials</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="testimonial-slider">
-                <div class="testimonial-track">
-                    <div class="testimonial-item animate-on-scroll" data-animation="fade-up">
-                        <div class="testimonial-content">
-                            <div class="testimonial-text">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Abimanyu delivered an exceptional backend solution for our e-commerce platform. His expertise in Node.js and database optimization significantly improved our application's performance and scalability.</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-image">
-                                    <img src="https://via.placeholder.com/80x80" alt="Client">
-                                </div>
-                                <div class="author-info">
-                                    <h4>John Doe</h4>
-                                    <p>CEO, TechStart Inc.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item animate-on-scroll" data-animation="fade-up">
-                        <div class="testimonial-content">
-                            <div class="testimonial-text">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Working with Abimanyu was a pleasure. He not only built a robust API for our mobile app but also provided valuable insights on architecture and security best practices. Highly recommended!</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-image">
-                                    <img src="https://via.placeholder.com/80x80" alt="Client">
-                                </div>
-                                <div class="author-info">
-                                    <h4>Sarah Johnson</h4>
-                                    <p>Product Manager, AppWave</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item animate-on-scroll" data-animation="fade-up">
-                        <div class="testimonial-content">
-                            <div class="testimonial-text">
-                                <i class="fas fa-quote-left"></i>
-                                <p>Abimanyu's expertise in real-time applications helped us create a seamless chat experience for our users. His solution was not only efficient but also easy to maintain and scale as our user base grows.</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-image">
-                                    <img src="https://via.placeholder.com/80x80" alt="Client">
-                                </div>
-                                <div class="author-info">
-                                    <h4>Michael Chen</h4>
-                                    <p>CTO, ConnectChat</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-controls">
-                    <button class="testimonial-prev" aria-label="Previous testimonial">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <div class="testimonial-dots"></div>
-                    <button class="testimonial-next" aria-label="Next testimonial">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-subtitle">Latest Articles</h3>
-                <h2 class="section-title">My Blog</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="blog-grid">
-                <div class="blog-item animate-on-scroll" data-animation="fade-up">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Building Scalable Node.js Applications">
-                            <div class="blog-date">
-                                <span class="day">15</span>
-                                <span class="month">Jun</span>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-tags">
-                                <span class="blog-tag">Node.js</span>
-                                <span class="blog-tag">Architecture</span>
-                            </div>
-                            <h3 class="blog-title">Building Scalable Node.js Applications</h3>
-                            <p class="blog-excerpt">Learn the best practices for building Node.js applications that can scale to handle millions of users.</p>
-                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item animate-on-scroll" data-animation="fade-up">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Optimizing MongoDB for Performance">
-                            <div class="blog-date">
-                                <span class="day">28</span>
-                                <span class="month">May</span>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-tags">
-                                <span class="blog-tag">MongoDB</span>
-                                <span class="blog-tag">Performance</span>
-                            </div>
-                            <h3 class="blog-title">Optimizing MongoDB for Performance</h3>
-                            <p class="blog-excerpt">Discover advanced techniques to optimize your MongoDB database for better performance and efficiency.</p>
-                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item animate-on-scroll" data-animation="fade-up">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Securing Your Node.js API">
-                            <div class="blog-date">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-tags">
-                                <span class="blog-tag">Security</span>
-                                <span class="blog-tag">API</span>
-                            </div>
-                            <h3 class="blog-title">Securing Your Node.js API</h3>
-                            <p class="blog-excerpt">Learn essential security practices to protect your Node.js API from common vulnerabilities and attacks.</p>
-                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-more">
-                <a href="#" class="btn secondary-btn">
-                    <span>View All Articles</span>
-                    <i class="fas fa-book"></i>
-                </a>
             </div>
         </div>
     </section>
@@ -864,7 +356,7 @@
                 <div class="section-line"></div>
             </div>
             <div class="contact-content">
-                <div class="contact-info animate-on-scroll" data-animation="fade-right">
+                <div class="contact-info">
                     <div class="contact-card">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
@@ -895,50 +387,37 @@
                     <div class="contact-social">
                         <h3>Follow Me</h3>
                         <div class="social-links">
-                            <a href="https://github.com/abimanyua.s210" target="_blank" aria-label="GitHub Profile">
+                            <a href="https://github.com/abimanyua.s210" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://instagram.com/abimanyua.s" target="_blank" aria-label="Instagram Profile">
+                            <a href="https://instagram.com/abimanyua.s" target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="mailto:abimanyua.s210@gmail.com" aria-label="Email Me">
+                            <a href="mailto:abimanyua.s210@gmail.com">
                                 <i class="fas fa-envelope"></i>
-                            </a>
-                            <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn Profile">
-                                <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.63167063153!2d109.59394723118067!3d-6.8922522252931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7025e1b15b3d2d%3A0x3027a76e352bea0!2sPekalongan%2C%20Pekalongan%20City%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1650000000000!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Pekalongan, Indonesia Map"></iframe>
-                    </div>
                 </div>
-                <div class="contact-form animate-on-scroll" data-animation="fade-left">
+                <div class="contact-form">
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                            <div class="error-message"></div>
                         </div>
                         <div class="form-group">
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                            <div class="error-message"></div>
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject</label>
                             <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
-                            <div class="error-message"></div>
                         </div>
                         <div class="form-group">
                             <label for="message">Your Message</label>
                             <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-                            <div class="error-message"></div>
                         </div>
-                        <button type="submit" class="btn primary-btn">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -952,30 +431,16 @@
                 <div class="footer-logo">
                     <a href="#home">Abimanyu<span>.dev</span></a>
                 </div>
-                <div class="footer-nav">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
                 <p>© 2023 Abimanyu Ade Syahputra. All rights reserved.</p>
                 <div class="footer-social">
-                    <a href="https://github.com/abimanyua.s210" target="_blank" aria-label="GitHub Profile">
+                    <a href="https://github.com/abimanyua.s210" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://instagram.com/abimanyua.s" target="_blank" aria-label="Instagram Profile">
+                    <a href="https://instagram.com/abimanyua.s" target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="mailto:abimanyua.s210@gmail.com" aria-label="Email Me">
+                    <a href="mailto:abimanyua.s210@gmail.com">
                         <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn Profile">
-                        <i class="fab fa-linkedin-in"></i>
                     </a>
                 </div>
             </div>
@@ -983,20 +448,9 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top" aria-label="Back to top">
+    <a href="#home" class="back-to-top">
         <i class="fas fa-arrow-up"></i>
     </a>
-
-    <!-- Cookie Consent -->
-    <div class="cookie-consent">
-        <div class="cookie-content">
-            <p>This website uses cookies to ensure you get the best experience on our website.</p>
-            <div class="cookie-buttons">
-                <button class="btn primary-btn" id="acceptCookies">Accept</button>
-                <button class="btn secondary-btn" id="declineCookies">Decline</button>
-            </div>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
